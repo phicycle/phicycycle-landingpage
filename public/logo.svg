@@ -1,0 +1,44 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle with gradient -->
+  <defs>
+    <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle -->
+  <circle 
+    cx="60" 
+    cy="60" 
+    r="56" 
+    fill="none" 
+    stroke="url(#circleGradient)" 
+    stroke-width="2"
+  />
+  
+  <!-- Phi symbol, stylized and centered -->
+  <path
+    d="M59 30 
+       A15 15 0 1 1 59 70
+       A15 15 0 1 1 59 30
+       M59 20
+       L59 100"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-opacity="0.9"
+  />
+  
+  <!-- Decorative arc -->
+  <path
+    d="M60 4
+       A56 56 0 0 1 116 60"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2"
+    stroke-opacity="0.3"
+    stroke-dasharray="4 6"
+  />
+</svg> 
