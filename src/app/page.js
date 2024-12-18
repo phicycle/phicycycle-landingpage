@@ -1,3 +1,34 @@
+export const metadata = {
+  title: 'Phicycle - Small Tools, Infinite Possibilities',
+  description: 'A single tool can change the way we build, think, and create. At Phicycle, we craft simple, focused products that amplify potential and celebrate the elegance of small solutions.',
+  openGraph: {
+    title: 'Phicycle - Small Tools, Infinite Possibilities',
+    description: 'A single tool can change the way we build, think, and create. At Phicycle, we craft simple, focused products that amplify potential and celebrate the elegance of small solutions.',
+    url: 'https://phicycle.com',
+    siteName: 'Phicycle',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/diroilukd/image/upload/v1734484039/27de07bd-c9bc-4902-acb2-3e2f385e4a67.png',
+        width: 1200,
+        height: 630,
+        alt: 'Phicycle - Small Tools, Infinite Possibilities'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Phicycle - Small Tools, Infinite Possibilities',
+    description: 'A single tool can change the way we build, think, and create. At Phicycle, we craft simple, focused products that amplify potential and celebrate the elegance of small solutions.',
+    images: ['https://res.cloudinary.com/diroilukd/image/upload/v1734484039/27de07bd-c9bc-4902-acb2-3e2f385e4a67.png'],
+  },
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  }
+}
+
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 import Image from 'next/image'
