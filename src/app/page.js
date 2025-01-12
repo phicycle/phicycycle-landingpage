@@ -248,14 +248,31 @@ export default function Home() {
                 <div className="absolute inset-0 flex items-center">
                   <div className="w-full border-t border-zinc-800/50"></div>
                 </div>
+              </div>
 
-                <blockquote className="relative mt-6 sm:mt-12">
-                  <div className="absolute -left-4 -top-4 text-4xl text-zinc-800">"</div>
-                  <div className="absolute -right-4 -bottom-4 text-4xl text-zinc-800">"</div>
-                  <p className="text-2xl sm:text-3xl text-center leading-relaxed font-medium bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/80 px-6 sm:px-12">
-                    Phicycle exists to explore this philosophy, one small idea at a time.
-                  </p>
-                </blockquote>
+              {/* Newsletter Section */}
+              <div className="mt-24 relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-2xl blur-3xl"></div>
+                <div className="relative bg-zinc-900/50 backdrop-blur border border-zinc-800/50 rounded-2xl p-8 sm:p-12">
+                  <div className="max-w-2xl mx-auto text-center space-y-6">
+                    <h3 className="text-2xl sm:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-200">
+                      Join Our Newsletter
+                    </h3>
+                    <p className="text-zinc-400">
+                      Get insights into our development process, early access to new tools, and stay updated with our journey.
+                    </p>
+                    <div className="flex justify-center">
+                      <Button
+                        asChild
+                        className="inline-block px-4 py-2 text-white border border-zinc-800 hover:border-zinc-700 rounded-lg transition-colors duration-300"
+                      >
+                        <Link href="https://newsletter.phicycle.io" target="_blank">
+                          Read & Subscribe
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
